@@ -1,0 +1,4 @@
+rootProject.name = 'quarkus-test-projekt'
+
+include "failure"
+include "success"

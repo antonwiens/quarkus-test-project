@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id "io.quarkus" version "999-SNAPSHOT"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation enforcedPlatform("io.quarkus:quarkus-bom:999-SNAPSHOT")
+    implementation "io.quarkus:quarkus-amazon-s3"
+    implementation "software.amazon.awssdk:apache-client"
+}
